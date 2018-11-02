@@ -15,29 +15,54 @@ namespace PedrinhoSecretsDKRT.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Sobre()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Enigmas()
         {
-            ViewData["Message"] = "Your contact page.";
+            return View();
+        }
 
+        public IActionResult Enigma1()
+        {
+            return View();
+        }
+
+        public IActionResult Enigma2()
+        {
+            return View();
+        }
+
+        public IActionResult Enigma3()
+        {
+            return View();
+        }
+
+        public IActionResult Enigma4()
+        {
+            return View();
+        }
+
+        public IActionResult Enigma5()
+        {
+            return View();
+        }
+
+        public IActionResult Enigma6()
+        {
+            return View();
+        }
+
+        public IActionResult Enigma7()
+        {
             return View();
         }
 
         public IActionResult Privacy()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
