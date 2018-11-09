@@ -41,13 +41,15 @@
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - PedrinhoSecretsDKRT</p>
-        </footer>
-    </div>
+	<div class="container body-content">
+		@RenderBody()
+		
+		<footer class="footerFixed">
+			<hr />
+			<p>&copy; 2018 - PedrinhoSecretsDKRT</p>
+		</footer>
+
+	</div>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
