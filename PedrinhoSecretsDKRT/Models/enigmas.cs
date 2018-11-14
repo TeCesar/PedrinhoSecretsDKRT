@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace PedrinhoSecretsDKRT.Models
 {
-    public class Enigma1ViewModel
+    public class enigmas
     {
-    
+        public int id { get; set; }
+       
+        public string resposta { get; set; }
     }
 }
